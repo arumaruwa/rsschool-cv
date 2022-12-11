@@ -45,9 +45,9 @@ function multiply(a, b) {
 
 ## Projects
 
-- [Guess My Number](https://ligrice-w.github.io/guess-my-number/)
-- [Modal Window](https://ligrice-w.github.io/modal-window/)
-- [Pig Game](https://ligrice-w.github.io/pig-game/)
+- [Guess My Number](https://arumaruwa.github.io/guess-my-number/)
+- [Modal Window](https://arumaruwa.github.io/modal-window/)
+- [Pig Game](https://arumaruwa.github.io/pig-game/)
 
 ## Education
 
