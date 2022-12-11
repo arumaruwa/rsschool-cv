@@ -42,3 +42,17 @@ function multiply(a, b) {
 - [The Complete JavaScript Course: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
 - [LearnJavaScript](https://learn.javascript.ru/)
 - [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/)
+
+## Projects
+
+- [Guess My Number](https://ligrice-w.github.io/guess-my-number/)
+- [Modal Window](https://ligrice-w.github.io/modal-window/)
+- [Pig Game](https://ligrice-w.github.io/pig-game/)
+
+## Education
+
+Hogwarts School of Witchcraft and Wizardry
+
+## English
+
+- **English** - A1
