@@ -145,6 +145,12 @@ body {
   font-weight: 700;
   line-height: 150%;
   color: #ffffff;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.navigation__link:hover {
+  color: #CDCCCF;
 }
 
 .page {
@@ -252,6 +258,12 @@ body {
   border-radius: 10px;
   padding: 15px 15px 15px 15px;
   height: 100%;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.content:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 .content__title {
   font-weight: 900;
@@ -314,6 +326,14 @@ body {
   line-height: 150%;
   color: #ffffff;
 }
+.content__text_github {
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.content__text_github:hover {
+  color: #9AE6B4;
+}
 .content__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,6 +352,12 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.content__button:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 .content__button_html {
   color: #FEB2B2;
@@ -367,6 +393,12 @@ body {
 .content__link {
   line-height: 150%;
   color: #FFFFFF;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.content__link:hover {
+  color: #81E6D9;
 }
 
 .footer__body {
@@ -389,6 +421,12 @@ body {
   font-weight: 700;
   line-height: 150%;
   color: #ffffff;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.footer__author:hover {
+  color: #CDCCCF;
 }
 .footer__rsschool-wrapper {
   max-width: 80px;

@@ -110,6 +110,12 @@ body {
 		font-weight: 700;
 		line-height: 150%;
 		color: #ffffff;
+
+		transition: all 0.2s ease 0s;
+
+		&:hover {
+			color: #CDCCCF;
+		}
 	}
 }
 
@@ -245,6 +251,11 @@ body {
 	border-radius: 10px;
 	padding: 15px 15px 15px 15px;
 	height: 100%;
+	transition: all 0.2s ease 0s;
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.2);
+	}
 
 	// .content__title
 	&__title {
@@ -325,6 +336,14 @@ body {
 	&__text {
 		line-height: 150%;
 		color: #ffffff;
+
+		&_github {
+			transition: all 0.2s ease 0s;
+
+			&:hover {
+				color: #9AE6B4;
+			}
+		}
 	}
 
 	// .content__buttons
@@ -343,6 +362,12 @@ body {
 		font-weight: 700;
 		line-height: 150%;
 		user-select: none;
+
+		transition: all 0.2s ease 0s;
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.2);
+		}
 
 		// .content__button_html
 		&_html {
@@ -403,6 +428,12 @@ body {
 	&__link {
 		line-height: 150%;
 		color: #FFFFFF;
+
+		transition: all 0.2s ease 0s;
+
+		&:hover {
+			color: #81E6D9;
+		}
 	}
 
 }
@@ -431,6 +462,12 @@ body {
 		font-weight: 700;
 		line-height: 150%;
 		color: #ffffff;
+
+		transition: all 0.2s ease 0s;
+
+		&:hover {
+			color: #CDCCCF;;
+		}
 	}
 
 	// .footer__rsschool-wrapper
