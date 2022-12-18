@@ -1,0 +1,48 @@
+// !sb &display=swap &subset=cyrillic-ext
+
+@import "null";
+
+// !P ADAPTIVE VALUE 
+// !sb calc(10px + (40 - 10) * ((100vw - 320px) / (1440 - 320)))
+
+@mixin adaptive-value-always($property, $maxSize, $minSize, $maxViewportWidth, $minViewportWidth) {
+	$delta: $maxSize - $minSize;
+
+	// Always
+	#{$property}: calc(#{$minSize + px} + #{$delta} * ((100vw - #{$minViewportWidth + px}) / (#{$maxViewportWidth} - #{$minViewportWidth})));
+}
+
+@mixin adaptive-value-max($property, $maxSize, $minSize, $maxViewportWidth, $minViewportWidth) {
+	$delta: $maxSize - $minSize;
+
+	// Less than container width
+	#{$property}: $maxSize + px;
+
+	@media (max-width: #{$maxViewportWidth + px}) {
+		#{$property}: calc(#{$minSize + px} + #{$delta} * ((100vw - #{$minViewportWidth + px}) / (#{$maxViewportWidth} - #{$minViewportWidth})));
+	}
+}
+
+@mixin adaptive-value-min($property, $maxSize, $minSize, $maxViewportWidth, $minViewportWidth) {
+	$delta: $maxSize - $minSize;
+
+	// More than layout width
+	#{$property}: $maxSize + px;
+
+	@media (min-width: #{$maxViewportWidth + px}) {
+		#{$property}: calc(#{$minSize + px} + #{$delta} * ((100vw - #{$minViewportWidth + px}) / (#{$maxViewportWidth} - #{$minViewportWidth})));
+	}
+}
+
+// !P ADAPTIVE VALUE
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 24px;
+}
+
+[data-container] {
+	max-width: 1210px;
+	padding: 0px 15px 0px 15px;
+	margin: 0px auto 0px auto;
+}
