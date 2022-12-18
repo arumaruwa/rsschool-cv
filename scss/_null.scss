@@ -28,6 +28,8 @@ button::-moz-focus-inner {padding:0; border:0;}
 
 	display: flex;
 	flex-direction: column;
+
+	position: relative;
 }
 
 ._ibg {

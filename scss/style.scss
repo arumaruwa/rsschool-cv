@@ -77,13 +77,9 @@ body {
 	margin: 0px auto 0px auto;
 }
 
-.wrapper {
-	position: relative;
-}
-
 .header {
 	position: relative;
-	z-index: 1;
+	z-index: 10;
 
 	// .header__container
 	&__container {}
@@ -128,24 +124,31 @@ body {
 		&_contact {
 			animation: show 1s ease 0s 1 normal forwards;
 		}
+
 		&_summary {
 			animation: show 1.2s ease 0s 1 normal forwards;
 		}
+
 		&_skills {
 			animation: show 1.4s ease 0s 1 normal forwards;
 		}
+
 		&_code {
 			animation: show 1.6s ease 0s 1 normal forwards;
 		}
+
 		&_courses {
 			animation: show 1.8s ease 0s 1 normal forwards;
 		}
+
 		&_projects {
 			animation: show 2s ease 0s 1 normal forwards;
 		}
+
 		&_education {
 			animation: show 2.2s ease 0s 1 normal forwards;
 		}
+
 		&_english {
 			animation: show 2.4s ease 0s 1 normal forwards;
 		}
@@ -154,7 +157,7 @@ body {
 
 .page {
 	position: relative;
-	z-index: 1;
+	z-index: 10;
 
 	flex: 1 0 auto;
 
@@ -510,7 +513,7 @@ body {
 
 .footer {
 	position: relative;
-	z-index: 1;
+	z-index: 10;
 
 	// .footer__container
 	&__container {}
@@ -570,7 +573,7 @@ body {
 		height: 100%;
 		top: 0;
 		left: 0;
-		z-index: 0;
+		z-index: 1;
 		object-fit: cover;
 	}
 }

@@ -101,6 +101,7 @@ button::-moz-focus-inner {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
 }
 
 ._ibg {
@@ -123,13 +124,9 @@ body {
   margin: 0px auto 0px auto;
 }
 
-.wrapper {
-  position: relative;
-}
-
 .header {
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 .navigation__list {
   display: -webkit-box;
@@ -195,7 +192,7 @@ body {
 
 .page {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
@@ -481,7 +478,7 @@ body {
 
 .footer {
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 .footer__body {
   display: -webkit-box;
@@ -530,7 +527,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 1;
   -o-object-fit: cover;
      object-fit: cover;
 }
