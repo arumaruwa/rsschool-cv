@@ -114,12 +114,17 @@ body {
 }
 
 .page {
+	flex: 1 0 auto;
 
 	// .page__hero
 	&__hero {}
 
 	// .page__info
 	&__info {}
+
+	&:not(:last-child) {
+		margin: 0px 0px 50px 0px;
+	}
 }
 
 .hero {
@@ -400,4 +405,42 @@ body {
 		color: #FFFFFF;
 	}
 
+}
+
+.footer {
+
+	// .footer__container
+	&__container {}
+
+	// .footer__body
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 70px;
+	}
+
+	// .footer__year
+	&__year {
+		font-weight: 700;
+		line-height: 150%;
+	}
+
+	// .footer__author
+	&__author {
+		font-weight: 700;
+		line-height: 150%;
+		color: #ffffff;
+	}
+
+	// .footer__rsschool-wrapper
+	&__rsschool-wrapper {
+		max-width: 80px;
+		max-height: 30px;
+	}
+
+	// .footer__rsschool
+	&__rsschool {
+		width: 100%;
+	}
 }
