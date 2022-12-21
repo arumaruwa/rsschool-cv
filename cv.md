@@ -2,11 +2,7 @@
 
 ## Contact
 
-**Phone**: +7 (900) 273-25-65
-
 **Email**: arumaruwa@gmail.com
-
-**Telegram**: @ligrice_w
 
 **GitHub**: [arumaruwa](https://github.com/arumaruwa)
 
